@@ -22,7 +22,7 @@ metricConfiguration:
   clientId : 1
 
 #Kafka settings.
-kafkaConfiguration:
+kafkaConfig:
 # See http://kafka.apache.org/documentation.html#api for semantics and defaults.
   topic: test
   #numThreads: 2
@@ -57,7 +57,7 @@ kafkaConfiguration:
 #monDeDuperConfiguration:
   #dedupeRunFrequencySeconds: 30
 
-verticaMetricRepositoryConfiguration:
+verticaMetricRepoConfig:
   maxCacheSize: 2000000
 
 
